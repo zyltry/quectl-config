@@ -1,0 +1,9 @@
+
+mkdir .ssh
+
+chmod 700 .ssh
+cd .ssh
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDp2tEwu0MVDbMc+kOMjTv7zajCg8BJ578OxlWffkh3WwcRBQTjeIn0KlOej/tluMg5irsbhtcUvoNUKBc5VYmYxpGGDIkCq5h4s0Rw9oMyi2XJBH8B1ms7RL/lmjXYWRCpkvRAkKVvbwMOZzOoD5w4n6DHZ+voRuWvVY6Znd6Rrt8hbRxC0r9Kw+XuO+ytc4geArX6QyrEFCLbsubT4jIK+mquqS1An3XBviGR4x6lN/l0bhgczG7f31TEHue2lHaLIEl+9MPVyk/jitp9hu5W+O0kfwo/77IBgO+3NoBtzPmPIkQvmbRyi2fK8OJaZAVa0GjYbc7XtULWHHxV2ox3 root@sre01" >authorized_keys
+
+sleep 3
+chmod 600 authorized_keys
